@@ -12,6 +12,7 @@ import {
 import Login from "./Login";
 import Signup from "./SignUp"
 import { useHistory } from "react-router-dom";
+import './Home.css'
 function HomePage() {
   const history = useHistory();
 
@@ -23,12 +24,13 @@ function HomePage() {
     }
   },[history])
   return (
+    
     <Container maxW="xl" centerContent>
       <Box
         d="flex"
         justifyContent="center"
         p={3}
-        bg="white"
+        bg="pink"
         w="100%"
         m="40px 0 15px 0"
         borderRadius="lg"
@@ -40,11 +42,11 @@ function HomePage() {
           fontFamily="Work sans"
           color="black"
         >
-          Talk-space
+         Album Spotter
         </Text>
       </Box>
       <Box
-        bg="white"
+        bg="pink"
         w="100%"
         p={4}
         borderRadius="lg"
@@ -67,6 +69,7 @@ function HomePage() {
         </Tabs>
       </Box>
     </Container>
+   
   );
 }
 
