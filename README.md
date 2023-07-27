@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # AlbumSpotter
 =======
 # Getting Started with Create React App
