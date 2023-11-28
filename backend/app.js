@@ -5,6 +5,8 @@ const connectdb = require('./db')
 const userRoutes = require('./Routes/userRoutes');
 const {notFound , errorHandler} = require('./middlewares/errorMiddleware')
 
+
+
 connectdb()
 app.use(express.json());
 app.use(cors())

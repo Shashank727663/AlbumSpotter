@@ -19,8 +19,8 @@ import { Container } from '@chakra-ui/react'
 import { Input } from '@chakra-ui/react'
 import { Button, ButtonGroup } from '@chakra-ui/react'
 import axios from 'axios'
-const CLIENT_ID = "Your spotify client id";
-const CLIENT_SECRET = "your spotify secret key/id";
+const CLIENT_ID = "5c32340210514748ad17c0e2771394d6";
+const CLIENT_SECRET = "1fd8314585644868abbf711581ffa9c6";
 
 function Main() {
   const [query,setQuery] = useState("");

@@ -30,7 +30,7 @@ function HomePage() {
         d="flex"
         justifyContent="center"
         p={3}
-        bg="pink"
+        bg="grey"
         w="100%"
         m="40px 0 15px 0"
         borderRadius="lg"
@@ -46,7 +46,7 @@ function HomePage() {
         </Text>
       </Box>
       <Box
-        bg="pink"
+        bg="grey"
         w="100%"
         p={4}
         borderRadius="lg"
